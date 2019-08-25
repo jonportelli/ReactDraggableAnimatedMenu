@@ -1,0 +1,41 @@
+html, body {
+	background-color: #292929;
+}
+
+#container {
+	width: 100vw;
+	height: 100vh;
+}
+
+.main-button {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	background-color: #CCCCCC;
+	cursor: pointer;
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	color: #292929;
+	font-weight: lighter;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.child-button {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: #CCCCCC;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+	color: #292929;
+}
+
+.child-button:hover {
+	background-color: #8b8b8b;
+}
+
