@@ -1,11 +1,14 @@
 #Draggable Animated Menu in React
 
-Material UI style FAB - (Floating action button) with staggered animation.
+Material UI style FAB - (Floating action button) with staggered animated children sub-menu items.
+
+![](https://i.postimg.cc/Hnnrqk6D/draggable2.gif)
 
 * `Components/APP.js` uses `<StaggeredMotion/>` component to achieve the staggering effect.
 * `Components/APP_old.js` uses `setTimeout` instead of `<StaggeredMotion>` to acheive the effect staggering.
 
-![](http://s1.postimg.org/wgzpb1l27/final_Demo_One.gif)
+Demo - https://jp-fab.netlify.com/
+
 
 To run 
 ======
